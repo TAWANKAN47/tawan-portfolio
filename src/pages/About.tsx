@@ -24,7 +24,7 @@ const About = () => {
   const handleDownloadResume = () => {
     // In a real application, this would link to an actual PDF file
     const link = document.createElement("a");
-    link.href = "/public/Resume.pdf";
+    link.href = "/Resume.pdf";
     link.download = "Resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -44,7 +44,7 @@ const About = () => {
           >
             <div className="bg-accent/30 rounded-full w-64 h-64 flex items-center justify-center mx-auto mb-6 overflow-hidden">
                 <img
-                  src="/public/profile.jpg"
+                  src="/profile.jpg"
                   alt="Tawan Kanjanakomol"
                   className="object-cover w-full h-full"
                 />

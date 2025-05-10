@@ -101,7 +101,7 @@ const Home = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <img
-                src="/pf_me.JPG"
+                src="/pd_n_bg.png"
                 alt="My Profile"
                 className="w-full h-full object-cover"
               />
